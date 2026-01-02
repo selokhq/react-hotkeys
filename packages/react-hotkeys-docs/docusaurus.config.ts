@@ -15,13 +15,14 @@ const config: Config = {
 
   themes: ["@docusaurus/theme-live-codeblock"],
 
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  baseUrl: "/",
+  // Production site + GitHub Pages project path
+  url: "https://selokhq.github.io",
+  baseUrl: "/react-hotkeys/",
 
   // GitHub pages deployment config.
   organizationName: "selokhq",
   projectName: "react-hotkeys",
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
 
