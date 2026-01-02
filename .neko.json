@@ -1,5 +1,5 @@
 {
-  "project-name": "react-hotkeys",
+  "project-name": "@selokhq/react-hotkeys",
   "project-owner": "selokhq",
   "project-type": "frontend",
   "release-system": "release-it",

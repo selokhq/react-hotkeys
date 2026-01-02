@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
   "github": {
     "release": true,
-    "releaseName": "react-hotkeys@${version}"
+    "releaseName": "v${version}"
   },
   "git": {
     "commit": true,
