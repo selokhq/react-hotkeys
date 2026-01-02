@@ -32,6 +32,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "jiti": "^2.6.1"
+    "jiti": "^2.6.1",
+    "release-it": "^19.2.2"
   }
 }
