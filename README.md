@@ -65,7 +65,7 @@ a 👍. This helps to prioritize what to work on.
 
 ## License
 
-[MIT](LICENCE)
+[MIT](LICENSE)
 
 [requests]: https://github.com/selokhq/react-hotkeys/issues?q=is%3Aissue%20state%3Aopen%20sort%3Areactions-%2B1-desc%20label%3Aenhancement
 [bugs]: https://github.com/selokhq/react-hotkeys/issues?q=is%3Aissue%20is%3Aopen%20sort%3Acreated-desc%20label%3Abug
