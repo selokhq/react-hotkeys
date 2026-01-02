@@ -1,13 +1,13 @@
 {
   "name": "@selokhq/react-hotkeys",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selokhq/react-hotkeys.git",
     "directory": "packages/react-hotkeys"
   },
+  "files": ["dist", "LICENSE", "README.md"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
