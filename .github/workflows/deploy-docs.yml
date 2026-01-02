@@ -28,6 +28,10 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      - name: Work around npm optional dependency bug (rollup native binary)
+        run: |
+          ROLLUP_VERSION=$(node -p "require('rollup/package.json').version")
+          npm install --no-save "@rollup/rollup-linux-x64-gnu@${ROLLUP_VERSION}"
       - name: Build library
         run: npm run -w @selokhq/react-hotkeys build
       - name: Build docs
