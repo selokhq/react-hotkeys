@@ -1,0 +1,34 @@
+{
+  "name": "@selokhq/react-hotkeys",
+  "version": "0.0.1",
+  "private": true,
+  "description": "React hook for handling keyboard shortcuts",
+  "author": "Christopher Haindl",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "component",
+    "hotkey",
+    "shortcut",
+    "keyboard",
+    "shortcuts",
+    "keypress",
+    "hotkeys"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selokhq/react-hotkeys.git"
+  },
+  "scripts": {
+    "lint": "npm -ws run lint --if-present",
+    "compile": "npm -ws run compile --if-present"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "jiti": "^2.6.1"
+  }
+}
